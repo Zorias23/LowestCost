@@ -5,6 +5,7 @@ import junit.framework.TestCase;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import com.example.admin.lowestcost.Graph.RoutingTable;
 
 /**
  * Created by Admin on 1/30/2018.
@@ -14,6 +15,8 @@ import java.util.Scanner;
  * To be run with MatrixTesterRunner class
  */
 public class MatrixTester extends TestCase{
+    /*This class has had its code commented out because the logic has been moved to the unit test module
+    /*
     private String methodName;
     public MatrixTester(String s)
     {
@@ -24,7 +27,7 @@ public class MatrixTester extends TestCase{
      * paths
      * @param filename
      * @throws FileNotFoundException
-     */
+
     public void test5DimenMatrix(String filename) {
         Graph.RoutingTable r = null;
         try {
@@ -106,4 +109,5 @@ public class MatrixTester extends TestCase{
         }
         return Route1;
     }
+    */
 }

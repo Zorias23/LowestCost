@@ -7,6 +7,8 @@ import junit.framework.TestCase;
  */
 
 public class MatrixTesterRunner {
+     /*This class has had its code commented out because the logic has been moved to the unit test module
+    /*
 private String filename = "graph.txt"; //modify your file name here for testing
 private int dimensions = 7; //set how many dimensions you want the Matrix to be.
     public void main(String[] S)
@@ -19,6 +21,75 @@ private int dimensions = 7; //set how many dimensions you want the Matrix to be.
         fileTest.run();
 
         TestCase threeDimenTest = new MatrixTester("test3DimenMatrix") {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             public void runTest() {
                 test3DimenMatrix(filename);
             }
@@ -39,4 +110,5 @@ private int dimensions = 7; //set how many dimensions you want the Matrix to be.
         };
         nDimenTest.run();
     }
+    */
 }
